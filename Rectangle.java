@@ -48,4 +48,7 @@ public class Rectangle extends GeometricObject {
 	public double getPerimeter() {
 		return 2 * (width + height);
 	}
+	public String toString() {
+		 return "Rectangle with area: "+this.getArea();
+	 }
 }
